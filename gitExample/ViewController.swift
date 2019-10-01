@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     var message = "Hello world"
+    var a = 10
+    var b = 5
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print(message)
+        print(a+b)
     }
 
 
