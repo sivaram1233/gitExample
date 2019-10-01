@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         print(a+b)
         array(a: 2, b: 5)
         print(reverse(text: "stressed"))
+        print(a-b)
     }
     func array(a:Int,b:Int)->[Int]{
         return [a,b]
